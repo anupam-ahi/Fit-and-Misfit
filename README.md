@@ -1,5 +1,12 @@
 "The Literary Coven"
+
+
+
+
 One Step Portal for Reading Lovers!
+
+
+
 Join the “The Literary Coven” Club. Be a part of a community with other readers like you!
 
 Features
