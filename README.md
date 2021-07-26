@@ -18,57 +18,57 @@ Nav Bar on side
 
 1.	Books
 
-  •	Fiction
-  
-  
-  •	Non-Fiction
-  
-  
-  •	Murder Mystery
-  
-  
-  •	Crime
-  
-  
-  •	Fantasy
-  
+        •	Fiction
+
+
+        •	Non-Fiction
+
+
+        •	Murder Mystery
+
+
+        •	Crime
+
+
+        •	Fantasy
+
   
 2.	Articles
 
 
-  •	Food  
-  
-  
-  •	Wellness
-  
-  
-  •	Work & Money
-  
-  
-  •	Travel
-  
-  
-  •	Astrology
+        •	Food  
+
+
+        •	Wellness
+
+
+        •	Work & Money
+
+
+        •	Travel
+
+
+        •	Astrology
   
   
   
 3.	Audio Books
 
 
-  •	Artists, Architects & Photographers.
-  
-  
-  •	Business.
-  
-  
-  •	Composers & Musicians.  
-  
-  
-  •	Entertainment & Performing Arts.
-  
-  
-  •	Historical.
-  
+        •	Artists, Architects & Photographers.
+
+
+        •	Business.
+
+
+        •	Composers & Musicians.  
+
+
+        •	Entertainment & Performing Arts.
+
+
+        •	Historical.
+
   
 4.	Autumn Reading List (Recommendation)
 
