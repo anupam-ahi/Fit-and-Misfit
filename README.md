@@ -14,29 +14,77 @@ Features
 9.	Video animations
 
 Nav Bar on side
+
+
 1.	Books
+
   •	Fiction
+  
+  
   •	Non-Fiction
+  
+  
   •	Murder Mystery
+  
+  
   •	Crime
+  
+  
   •	Fantasy
+  
+  
 2.	Articles
-  •	Food
+
+
+  •	Food  
+  
+  
   •	Wellness
+  
+  
   •	Work & Money
+  
+  
   •	Travel
+  
+  
   •	Astrology
+  
+  
+  
 3.	Audio Books
+
+
   •	Artists, Architects & Photographers.
+  
+  
   •	Business.
-  •	Composers & Musicians.
+  
+  
+  •	Composers & Musicians.  
+  
+  
   •	Entertainment & Performing Arts.
+  
+  
   •	Historical.
+  
+  
 4.	Autumn Reading List (Recommendation)
+
+
 5.	About
+
+
 6.	Newsletters
+
+
 7.	Join the “The Literary Coven” community
+
+
 8.	Contact
+
+
 9.	Feed Back
 
 
