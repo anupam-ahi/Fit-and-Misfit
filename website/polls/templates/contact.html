@@ -1,26 +1,199 @@
 {% load static %}
-<div class="about-section">
-    <h1>About Us Page</h1>
-    <p>Some text about who we are and what we do.</p>
-    <p>Resize the browser window to see that this page is responsive by the way.</p>
-</div>
 
-<h2 style="text-align:center">Our Team</h2>
-<div class="row">
-    <div class="column">
-        <div class="card">
-            <img src='{% static "/images/img1.jpg" %}'>
-            <div class="container">
-                <h2>Srishti Ranjan</h2>
-                <p class="title">CEO & Founder</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>sristhiranjan2910@gmail.com</p>
-                <p><button class="button">Contact</button></p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Profile Card UI Design Cool Hover Effect</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <style>
+        body {
+            font-family: tahoma;
+            height: 100vh;
+            background-image: url('{% static "/images/img3.jpg" %}');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+        }
+
+        /* .flex-container {
+            display: flex;
+            flex-direction: row;
+
+            align-content: center;
+        }
+
+        .flex-container>.our-team {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+
+        } */
+
+
+        .our-team {
+            padding: 30px 0 40px;
+            margin-bottom: 30px;
+            background-color: #f7f5ec;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .our-team .picture {
+            display: inline-block;
+            height: 130px;
+            width: 130px;
+            margin-bottom: 50px;
+            z-index: 1;
+            position: relative;
+        }
+
+        .our-team .picture::before {
+            content: "";
+            width: 100%;
+            height: 0;
+            border-radius: 50%;
+            background-color: #1369ce;
+            position: absolute;
+            bottom: 135%;
+            right: 0;
+            left: 0;
+            opacity: 0.9;
+            transform: scale(3);
+            transition: all 0.3s linear 0s;
+        }
+
+        .our-team:hover .picture::before {
+            height: 100%;
+        }
+
+        .our-team .picture::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #1369ce;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .our-team .picture img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            transform: scale(1);
+            transition: all 0.9s ease 0s;
+        }
+
+        .our-team:hover .picture img {
+            box-shadow: 0 0 0 14px #f7f5ec;
+            transform: scale(0.7);
+        }
+
+        .our-team .title {
+            display: block;
+            font-size: 15px;
+            color: #4e5052;
+            text-transform: capitalize;
+        }
+
+        .our-team .social {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: #1369ce;
+            position: absolute;
+            bottom: -100px;
+            left: 0;
+            transition: all 0.5s ease 0s;
+        }
+
+        .our-team:hover .social {
+            bottom: 0;
+        }
+
+        .our-team .social li {
+            display: inline-block;
+        }
+
+        .our-team .social li a {
+            display: block;
+            padding: 10px;
+            font-size: 17px;
+            color: white;
+            transition: all 0.3s ease 0s;
+            text-decoration: none;
+        }
+
+        .our-team .social li a:hover {
+            color: #1369ce;
+            background-color: #f7f5ec;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="https://picsum.photos/130/130?image=839">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Srishti Ranjan</h3>
+                        <h4 class="title">Web Developer</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook"
+                                aria-hidden="true"></a></li>
+                        <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter"
+                                aria-hidden="true"></a></li>
+                        <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus"
+                                aria-hidden="true"></a></li>
+                        <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin"
+                                aria-hidden="true"></a></li>
+                    </ul>
+                </div>
             </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="https://picsum.photos/130/130?image=856">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Anupam Ahi</h3>
+                        <h4 class="title">Web Developer</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook"
+                                aria-hidden="true"></a></li>
+                        <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter"
+                                aria-hidden="true"></a></li>
+                        <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus"
+                                aria-hidden="true"></a></li>
+                        <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin"
+                                aria-hidden="true"></a></li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
+    <!-- partial -->
 
+</body>
 
-
-
-</div>
+</html>
