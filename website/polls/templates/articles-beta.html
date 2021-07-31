@@ -1,0 +1,499 @@
+
+<html>
+
+	<head>
+	
+		<title>Articles-beta</title>
+		
+		<style type="text/css">
+
+/*------------The header container---------*/
+            #header {
+                background-position: center;
+                background-size: cover;
+                background-image: url("https://cdn5.vectorstock.com/i/1000x1000/62/64/books-isolated-on-blue-background-vector-20936264.jpg");
+                min-height: 50%;
+            }
+
+            #heads {
+
+                position: relative;
+                top: 110px;
+                left: 760px;
+                transform: translate(-50%,-50%);
+                color:white;
+                font-family: 'Brush Script MT', cursive;
+                font-size:100px;
+                text-align:center;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+            }
+
+            #heads2 {
+
+                position: relative;
+                top: 120px;
+                left: 760px;
+                transform: translate(-50%,-50%);
+                color:white;
+                font-size:20px;
+                text-align:center;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+            }
+/*-------------The end of header container----------*/
+
+/*-------------Navigation Bar------------*/
+
+            #navbar {
+                overflow: hidden;
+                background-color: #333;
+                z-index:3;
+            }
+
+            #navbar a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                
+            }
+
+            #navbar a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            #navbar a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+
+            .content {
+                
+                padding: 16px;
+            }
+
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
+            .sticky + .content {
+                padding-top: 60px;
+            }
+
+/*----------The end of nav bar----------*/
+
+/*-------------The Article Title------------*/
+            body {
+                margin : 0;
+            }
+
+            .outer-container {
+                position : relative;
+                display: table;
+                width: 100%; /* This could be ANY width */
+                height: 300px; /* This could be ANY height */
+                background-position: center;
+
+                background-image: url("https://as1.ftcdn.net/jpg/00/45/81/10/500_F_45811028_gYeeHYNlWubiaBfaOjD5BzbUBm6sNrfu.jpg");
+            }
+
+            .inner-container {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            .centered-content {
+                display: inline-block;
+                text-align: left;
+                background: #fff;
+                font-size:60px;
+                padding : 20px;
+                border : 1px solid #000;
+                font-family: 'Brush Script MT', cursive;
+            }
+/*-------------End of Article title-----------*/
+
+#body-content {
+                position:relative;
+                background-color:#fc4747;
+                color:black;
+                text-align:center;
+                font-size:20px;
+                padding:70px;
+            }
+
+/*-------------The article 1----------*/
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wpcdn.us-east-1.vip.tn-cloud.net/www.metropolismag.com/content/uploads/2020/12/Metropolis-Mag-Black-Women-Build-HiRes-15.jpg");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.hero-image:hover {
+  transform: scale(0.95); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*------------The end of article 1----------------*/
+/*--------------Article galary-----------*/
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      font-family: Georgia, serif;
+    }
+
+
+    /* Center website */
+    .main1 {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .column1:hover{
+    transform: scale(0.95);
+    }
+
+    .row1 {
+      margin: 10px -16px;
+    }
+
+    /* Add padding BETWEEN each column */
+    .row1,
+    .row1 > .column1 {
+      padding: 8px;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column1 {
+      float: left;
+      width: 33.33%;
+      display: none; /* Hide all elements by default */
+    }
+
+    /* Clear floats after rows */ 
+    .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Content */
+    .content1 {
+      background-color: white;
+      padding: 10px;
+    }
+    .show1 {
+      display: block;
+    }
+
+/*---------------The end of article galary-------------*/
+
+/*--------Tow Containers------------*/
+                /* Left column */
+            .leftcolumn {   
+                float: left;
+                width: 60%;
+            }
+
+            /* Right column */
+            .rightcolumn {
+                float: left;
+                width: 40%;
+                padding-left: 50px;
+            }
+
+            /* Fake image */
+            .fakeimg {
+                background-color:white;
+                width: 100%;
+                padding: 20px;
+                margin-bottom:10px;
+            }
+            
+            button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 10px 25px;
+                color: black;
+                background-color: #ddd;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #555;
+                color: white;
+            }
+
+            /* Add a card effect for articles */
+            .card {
+                background-image: linear-gradient(to bottom right,#87f3ff, #027ee3);
+                padding: 20px;
+                margin-left:20px;
+                margin-top: 20px;
+            }
+            .card:hover {
+                transform: scale(0.95);
+            }
+
+            .cardx:hover {
+                transform: scale(0.95);
+            }
+
+            .cardx {
+                background-image: linear-gradient(to bottom right,#87f3ff, #027ee3);
+                padding: 20px;
+                margin-top: 20px;
+                margin-right:20px;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+/*----------End of two containers-----------*/
+
+.books-container-heading {
+                margin-bottom:20px;
+                width:100%;
+                background-image: linear-gradient(to bottom right,#fffa63, #ede500);
+                font-size:40px;
+                color:black;
+                padding:2px;
+                text-align:center;
+            }
+
+		</style>
+	
+	</head>
+	
+	
+	<body>
+
+                    <div id="header">    
+                        <div id="heads">
+                            The Literary Coven<br>
+                        </div> 
+                        <div id="heads2">
+                            One Step Portal for Reading Lovers!<br>
+                        </div>            
+                    </div>
+
+                    <div id="navbar">
+                            <a class="active" href="home_back">Home</a>
+                            <a href="books-beta">Books</a>
+                            <a href="javascript:void(0)">Articles</a>
+                            <a href="audio_books">Audio Books</a>
+                            <a href="newsletter">Newsletters</a>
+                            <a href="recommendations">Recommendations</a>
+                            <a href="contact1">Contact</a>
+                    </div>  
+                    <div class="outer-container">
+                        <div class="inner-container">
+                            <div class="centered-content">
+                                Articles!
+                            </div>
+                        </div>
+                    </div>    
+                      <div id="fourth-section">
+                        <p id="body-content">
+                            Need another excuse to treat yourself to a new book this week? We've got you covered with the buzziest new releases of the day.
+                            To create our list, we focused on the books The Literary Coven club's members can't wait to read, which we measure by how many times a book has been added to Want to Read shelves. 
+                            All these top titles are now available in the World! Which ones catch your eye?
+                        </p>
+                    </div>
+            <div class="hero-image">
+              <div class="hero-text">
+                <h1 style="font-size:50px">How Recycling Existing Buildings Could Solve the Urban Housing Crisis</h1>
+                <p>- Chaseedaw Giles</p>
+                <button onclick="window.location='https://www.metropolismag.com/sustainability/reuse-urban-housing-crisis/';">Read More</button>
+              </div>
+            </div>
+<div class="books-container-heading">
+                    <p>Must Read Articles of 2021!</p>
+                </div>
+            <div class="main1">
+
+                
+
+<!-- Portfolio Gallery Grid -->
+<div class="row1">
+  <div class="column1 nature">
+    <div class="content1">
+      <img src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.metropolismag.com/content/uploads/2020/07/Kern-FemCity1.jpg" alt="Mountains" style="width:100%">
+      <h4>Can a City Be Feminist?</h4>
+      <p>By: Leilah Stone</p>
+      <button onclick="document.location='https://www.metropolismag.com/cities/leslie-kern-feminist-city/'">Read More</button>
+    </div>
+  </div>
+  <div class="column1 nature">
+    <div class="content1">
+    <img src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.metropolismag.com/content/uploads/2020/11/LMN-Architects_Office-2015_Adam-Hunter_01.jpg" alt="Lights" style="width:100%">
+      <h4>Why Interior Designers Must Fight Climate Change</h4>
+      <p>By: Avinash Rajagopal</p>
+    <button onclick="document.location='https://www.metropolismag.com/interiors/interior-designers-climate-carbon/'">Read More</button>
+    </div>
+  </div>
+  <div class="column1 nature">
+    <div class="content1">
+    <img src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.metropolismag.com/content/uploads/2020/04/Peabody-Sun-House-Credit-Harvard-GSD-Frances-Loeb-Library.jpg" alt="Nature" style="width:100%">
+      <h4>Is it Time to Redesign Earth Day?</h4>
+      <p>By: Allison Arieff</p>
+      <button onclick="document.location='https://www.metropolismag.com/sustainability/earth-day-50/'">Read More</button>
+    </div>
+  </div>
+  
+  <div class="column1 cars">
+    <div class="content1">
+      <img src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.metropolismag.com/content/uploads/2020/06/The-Swamp-School-Operation-Scheme.jpg" alt="Car" style="width:100%">
+      <h4>Can Quarantine Propel Us Toward Planetary Sanctuary?</h4>
+      <p>By: Mimi Zeiger</p>
+        <button onclick="document.location='https://www.metropolismag.com/ideas/quarantine-refugia-covid-19/'">Read More</button>
+    </div>
+  </div>
+  <div class="column1 cars">
+    <div class="content1">
+    <img src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.metropolismag.com/content/uploads/2020/12/Burned-Forest-Courtesy-Freres-Lumber..jpg" alt="Car" style="width:100%">
+      <h4>How Mass Timber Could Help Reduce Wildfire Risk</h4>
+      <p>By: Lydia Lee</p>
+        <button onclick="document.location='https://www.metropolismag.com/sustainability/mass-timber-wildfire/'">Read More</button>
+    </div>
+  </div>
+  <div class="column1 cars">
+    <div class="content1">
+    <img src="https://miro.medium.com/max/2000/0*Rb9USiavU1H3LhxZ" alt="Car" style="width:100%">
+      <h4>Lighting’s Dark Secret: Embodied Carbon in the LED Industry</h4>
+      <p>Audrey Gray</p>
+        <button onclick="document.location='https://www.metropolismag.com/design/lighting/lightings-dark-secret-embodied-carbon-in-the-led-industry/'">Read More</button>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+</div>
+<div class="row">
+                        <div class="leftcolumn">
+                            <div class="card">
+                                <h2>7 Strange Questions that Help You Find Your Life Purpose</h2>
+                                <h5>Published on February 9, 2015</h5>
+                                <div class="fakeimg" >When you talk to someone in his golden years, you're likely to hear about things he would do more of, less of, or just better if he had the chance to do it all over again. I’m generally happy with life, so can’t complain that a tortuous route got me to this point. But if I could do it again with hindsight, the second time around I’d make sure to live by the following guidelines...</div>
+                                <button onclick="document.location='https://www.linkedin.com/pulse/i-could-start-over-heres-what-id-do-differently-joel-peterson/'">Read More</button>
+                            </div>
+                            <div class="card">
+                                <h2>Passion, Fun, Priorities: How I Have Avoided Work-Life Balance Burnout</h2>
+                                <h5>Published on February 2, 2016</h5>
+                                <div class="fakeimg">Achieving work-life balance is like walking a tightrope. Luckily, over numerous decades in business I have learned a number of tips on how to find equilibrium. Having put myself at the front and centre of the Virgin Group, the work side of my life has been well-documented publicly, but what exactly does the life side of the equation look like?</div>
+                                <button onclick="document.location='https://www.linkedin.com/pulse/my-life-outside-work-passion-fun-priorities-how-i-have-branson/'">Read More</button>
+                            </div>
+                        </div>
+                        <div class="rightcolumn">
+                            <div class="cardx">
+                                <h2>The Importance of Scheduling Nothing</h2>
+                                <div class="real-img"><img src="https://media-exp1.licdn.com/dms/image/C4E12AQHUuAKuq6Fy3Q/article-inline_image-shrink_1000_1488/0/1520233404510?e=1632960000&v=beta&t=Knkqg0JNTg3PndINEesEOfTfuUc4P92mCipOFL-5zXw"></div>
+                                <p>If you were to see my calendar, you'd probably notice a host of time slots greyed out but with no indication of what's going on. There is no problem with my Outlook or printer. The grey sections reflect "buffers," or time periods I've purposely kept clear of meetings...</p>
+                                <button onclick="document.location='https://www.linkedin.com/pulse/20130403215758-22330283-the-importance-of-scheduling-nothing/'">Read More</button>
+                            </div>
+                        </div>
+                    </div>     
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column1");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show1");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show1");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+</script>
+
+        <script>
+            
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } 
+            else {
+                navbar.classList.remove("sticky");
+            }
+            }
+    </script>
+	</body>
+	
+</html>
