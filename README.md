@@ -86,13 +86,9 @@ Nav Bar on side
 6.	Newsletters
 
 
-7.	Join the “The Literary Coven” community
+7.	Contact
 
 
-8.	Contact
-
-
-9.	Feed Back
 
 
 
